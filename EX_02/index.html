@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Calculo de salário</legend>
+        <div>
+        <label for="hr"> Insira as horas de trabalho registradas:</label>
+        <input type="number" id="hr" placeholder="Horas"><br>
+    </div>
+    <div>
+        <label for="sal"> Insira o salário por hora de trabalho:</label>
+        <input type="number" id="sal" placeholder="Salário">
+    </div>
+        <input type="button" id="bt" onclick="salario()" value="Calcular "> 
+
+        <p>Salário total mensal: <span id="sal_t"></span></p>
+    </fieldset>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

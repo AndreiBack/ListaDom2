@@ -1,0 +1,29 @@
+body{
+    background-image:url("ednaldo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    background-color: white;
+    margin: 1vw 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1vw;
+    padding: 3vw;
+    width: 30vw;
+    border-color: rgb(37, 4, 128);
+    border-radius: 10px;
+
+}
+input{
+    width: 5vw;
+}
+#bt{
+    width: 14vw;
+    border-radius: 5px;
+}

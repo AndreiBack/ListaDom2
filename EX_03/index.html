@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saldo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Saldo Cliente</legend>
+        <div>
+        <label for="saldo">Saldo:</label>
+        <input type="number" id="saldo" class="text"placeholder="0,00R$">
+    </div>
+    <div>
+        <label for="debito">Débito</label>
+        <input type="number" id="debito" class="text"placeholder="0,00R$">
+    </div>
+    <div>
+        <label for="crédito">Crédito</label>
+        <input type="number" id="credito" class="text"placeholder="0,00R$">
+    </div>
+
+<input type="button" value="Enviar" id="bt" onclick="Calcular()">
+
+<p>Saldo atual: <span id="saldo_t"></span></p>
+<span id="alerta"></span>
+    </fieldset>
+    <script src="index.js"></script>
+</body>
+</html>

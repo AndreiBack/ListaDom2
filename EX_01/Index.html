@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="Votação">
+    <form action="">
+        <fieldset>
+        <legend> Resultado Votação</legend>
+
+        <label for="nulo">Votos Nulos:</label>  
+        <input type="number" id="nulo" placeholder=0>
+
+        <label for="branco">Votos Brancos:</label>  
+        <input type="number" id="branco" placeholder=0> 
+
+        <label for="valido">Votos Válidos:</label>  
+        <input type="number" id="valido" placeholder=0> 
+
+        <input type="button" onclick="calcular()" value="Enviar"> 
+<div id="resultados">
+        <p> O Total de votos é: <span id="t"></span></p>
+        <p> A Porcentagem de votos nulos é: <span id="n"></span> %</p>
+        <p> A Porcentagem de votos brancos é: <span id="b"></span>%</p>
+        <p> A Porcentagem de votos validos é: <span id="v"></span>%</p>
+    </div>
+    
+    </fieldset>
+</form>
+
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitantes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<fieldset>
+    <legend>Pesquisa entre habitantes</legend>
+    
+    <div id="top">
+    <input type="text" name="txtnome" id="nome" placeholder="Nome do cidadão">
+    <input type="number" name="txtfilhos" id="num_filhos" placeholder="Num Filhos">
+    <input type="number" name="txtsalario"  id="Salários" placeholder="Salários (R$)">
+    <input type="button" id="bt" onclick="Adicionar()" value="Adicionar"><br><br>
+</div>
+<div id="tabela">
+    <table border=1 id="tabela">
+        <thead>
+            <tr>
+        <th>Nome</th>
+        <th>Número de filhos</th>
+        <th>Salário</th>
+            </tr>
+
+    </thead> 
+    </table>
+</div>
+</fieldset>
+<script src="index.js"></script>
+</body>
+</html>
